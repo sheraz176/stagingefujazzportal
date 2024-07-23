@@ -147,7 +147,7 @@ class USSDSubscriptionController extends Controller
                 // Output the encrypted data in hex
                 //echo "Encrypted Data (Hex): $hexEncryptedData\n";
 
-                $url = 'https://gateway.jazzcash.com.pk/jazzcash/third-party-integration/rest/api/wso2/v1/insurance/sub_autoPayment';
+                $url = 'https://gateway-sandbox.jazzcash.com.pk/jazzcash/third-party-integration/rest/api/wso2/v1/insurance/sub_autoPayment';
 
                 $headers = [
                     'X-CLIENT-ID: 946658113e89d870aad2e47f715c2b72',
